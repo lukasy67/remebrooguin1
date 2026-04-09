@@ -1,14 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
-<script src="https://cdn.tailwindcss.com"></script>
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/src/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>Brooguin Sport - Pedidos</title>
+    
+    <!-- El script de Tailwind DEBE estar aquí, dentro del head y después de los meta tags -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <style>
+      /* Estilos básicos para evitar el parpadeo blanco */
+      body { background-color: #f5f5f5; margin: 0; font-family: system-ui, -apple-system, sans-serif; }
+    </style>
   </head>
   <body>
     <div id="root"></div>
+    <!-- Punto de entrada de la aplicación -->
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
